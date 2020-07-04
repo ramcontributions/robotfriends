@@ -7,7 +7,7 @@ const CardList = ({ robots }) => {
     })
     return (
         <div>
-            {eachCard}
+                {eachCard}
         </div>
     )
 }
