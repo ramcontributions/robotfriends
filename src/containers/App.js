@@ -38,7 +38,7 @@ class App extends React.Component {
             return robot.name.toLowerCase().includes(searchField)
         });
         return !robots.length ?  
-            <h1>Loading</h1> :
+            <h1>Loading...</h1> :
             <div className="tc">
                 <h1>Robo Friends</h1>
                 <SearchBox searchChange={onSearchChange} />
